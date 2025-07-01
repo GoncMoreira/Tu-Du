@@ -1,7 +1,13 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('tarefas-cache').then((cache) => {
-      return cache.addAll(['/', '/index.html', '/style.css', '/app.js']);
+    caches.open('todo-cache').then((cache) => {
+      return cache.addAll([
+        '/',
+        '/index.html',
+        '/style.css',
+        '/app.js',
+        '/manifest.json',
+      ]);
     })
   );
 });
