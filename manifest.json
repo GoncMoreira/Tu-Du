@@ -1,0 +1,10 @@
+{
+  "name": "TU DU APP",
+  "short_name": "Tu Du",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+  ]
+}
