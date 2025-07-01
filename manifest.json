@@ -1,0 +1,6 @@
+{
+  "name": "TU DU APP",
+  "short_name": "Tu Du",
+  "start_url": "./index.html",
+  "display": "standalone"
+}
